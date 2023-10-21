@@ -1,0 +1,50 @@
+/* Reset some default styles and add a background color */
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color: #33333363;
+    font-family: Arial, sans-serif;
+} */
+
+/* Style the header and navbar */
+header {
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style navigation links on hover */
+.nav-links a:hover {
+    border-bottom: 2px solid #ff6b6b;
+}
